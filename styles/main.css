@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height:170px;
+    background:#C4C4C4;
+    position: relative;
+    left:500px;
+}
+.box-body{
+    width: 300px;
+    height:250px;
+    background:#AD1010;
+    position: relative;
+    left:450px;
+}
+.box .box-one,
+.box .box-two,
+.box .box-three,
+.box .box-hands1,
+.box .box-hands2{
+    position: absolute;
+
+}
+.box .box-one{
+    left: 40px;
+    top:40px;
+    width:20%;
+    padding: 1.5em;
+    background:red;
+}
+
+.box .box-two{
+    left:120px;
+    top:40px;
+    width:20%;
+    padding: 1.5em;
+    background:red;
+}
+
+.box .box-three{
+    right:50px;
+    bottom:20px;
+    width:50%;
+    padding: 1em;
+    background:#AD1010;
+}
+
+.box-body .box-hands1{
+    margin-left: -60px;
+    margin-top:50px;
+    width:190px;
+    height:60px;
+    background:#C4C4C4;
+    padding: 1em;
+    position: absolute;
+}
+
+.box-body .box-hands2{
+    left:210px;
+    margin-top:40px;
+    height:70px;
+    width:140px;
+    padding: 1.1em;
+    background:#C4C4C4;
+    position: absolute;
+}
+
+.box-body .box-finger1{
+    left:180px;
+    margin-top:-13px;
+    right:0px;
+    height: 12px;
+    width:25px;
+    padding: 0.1em;
+    background:#CF9729;
+    position: absolute;
+    z-index: 1;
+}
+
+.box-body .box-finger2{
+    left:180px;
+    margin-top:7px;
+    right:0px;
+    height: 12px;
+    width:25px;
+    padding: 0.1em;
+    background:#CF9729;
+    position: absolute;
+    z-index: 1;
+}
+
+.box-body .box-finger3{
+    left:180px;
+    margin-top:27px;
+    right:0px;
+    height: 12px;
+    width:25px;
+    padding: 0.1em;
+    background:#CF9729;
+    position: absolute;
+    z-index: 1;
+
+}
+.box-body .box-finger4{
+    left:-10px;
+    margin-top:-13px;
+    right:0px;
+    height: 12px;
+    width:25px;
+    padding: 0.1em;
+    background:#CF9729;
+    position: absolute;
+    z-index: 1;
+
+}
+.box-body .box-finger5{
+    left:-10px;
+    margin-top:7px;
+    right:0px;
+    height: 12px;
+    width:25px;
+    padding: 0.1em;
+    background:#CF9729;
+    position: absolute;
+    z-index: 1;
+
+}
+.box-body .box-finger6{
+    left:-10px;
+    margin-top:27px;
+    right:0px;
+    height: 12px;
+    width:25px;
+    padding: 0.1em;
+    background:#CF9729;
+    position: absolute;
+    z-index: 1;
+}
+
+.box-body .box-leg1{
+    margin-left: 30px;
+    margin-top:200px;
+    width:80px;
+    height:150px;
+    background:#C4C4C4;
+    padding: 1em;
+    position: absolute;
+}
+
+.box-body .box-leg2{
+    margin-left: 190px;
+    margin-top:200px;
+    width:80px;
+    height:150px;
+    background:#C4C4C4;
+    padding: 1em;
+    position: absolute;
+}
+
+.box-body .box-shoe1{
+    margin-left: -250px;
+    margin-top:330px;
+    width:120px;
+    height:50px;
+    right:175px; 
+    background:#CF9729;
+    padding: 1em;
+    position: absolute;
+}
+
+.box-body .box-shoe2{
+    margin-left: -250px;
+    margin-top:330px;
+    width:120px;
+    height:50px;
+    right:10px; 
+    background:#CF9729;
+    padding: 1em;
+    position: absolute;
+}
+
+header{
+    position:fixed;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 10px;
+    top:10px;
+    background:blueviolet;   
+}
+
+body{
+    padding-top:100px;
+}
+
+h1,h2{
+    color:white;
+}
+
+footer{
+    position:fixed;
+    width: 160px;
+    height: 100px;
+    bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background:blueviolet;
+}
+img{
+    
+    width:30px;
+    height:30px;
+    
+
+}
+.imagen{
+    
+    padding-left: 50px;
+
+}
+html{
+    height: 5000px;
+}
